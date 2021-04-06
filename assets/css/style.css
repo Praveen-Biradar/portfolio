@@ -250,7 +250,14 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
 }
-
+.home_credit{
+	position: fixed;
+	top:0;
+	right:5px;
+	z-index:10;
+	font-size: 10px;
+	font-style: italic;
+}
 @media (min-width: 1024px) {
   #home {
     background-attachment: fixed;
@@ -268,7 +275,11 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 30px;
   }
 }
-
+@media only screen and (max-width: 600px) {
+  #home,#home:before {
+	  height: 46vh;
+  }
+}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -786,10 +797,5 @@ section {
     position: static;
     width: auto;
     padding-right: 20px 15px;
-  }
-}
-@media only screen and (max-width: 600px) {
-  #home,#home:before {
-	  height: 46vh;
   }
 }
