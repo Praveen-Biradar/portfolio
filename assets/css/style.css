@@ -274,16 +274,17 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 24px;
     margin-bottom: 30px;
   }
-  .home_credit a{
-	color: #272829;
-  }
 }
+/* css for mobile device */
 @media only screen and (max-width: 600px) {
   #home,#home:before {
 	  height: 46vh;
   }
   .home_credit{
 	font-size: 5px;
+  }
+  .home_credit a{
+	color: #272829;
   }
 }
 /*--------------------------------------------------------------
