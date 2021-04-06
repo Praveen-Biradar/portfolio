@@ -279,6 +279,9 @@ h1, h2, h3, h4, h5, h6 {
   #home,#home:before {
 	  height: 46vh;
   }
+  .home_credit{
+	font-size: 5px;
+  }
 }
 /*--------------------------------------------------------------
 # Sections General
