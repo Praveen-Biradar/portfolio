@@ -258,10 +258,6 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 10px;
 	font-style: italic;
 }
-
-.home_credit a{
-	color: #272829;
-}
 @media (min-width: 1024px) {
   #home {
     background-attachment: fixed;
@@ -277,6 +273,9 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
+  }
+  .home_credit a{
+	color: #272829;
   }
 }
 @media only screen and (max-width: 600px) {
