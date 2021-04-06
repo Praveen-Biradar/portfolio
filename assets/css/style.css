@@ -209,7 +209,6 @@ h1, h2, h3, h4, h5, h6 {
   background: url("../img/home.png") top center;
   background-size: cover;
 }
-
 #home:before {
   content: "";
   background: rgba(5, 13, 24, 0.3);
@@ -219,6 +218,8 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   right: 0;
   z-index: 1;
+  width: 100%;
+  height: 100vh;
 }
 
 #home .home-container {
@@ -785,5 +786,10 @@ section {
     position: static;
     width: auto;
     padding-right: 20px 15px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #home,#home:before {
+	  height: 46vh;
   }
 }
