@@ -52,7 +52,43 @@ h1, h2, h3, h4, h5, h6 {
   visibility: visible;
   opacity: 1;
 }
+/*--------------------------------------------------------------
+# Scroll down
+--------------------------------------------------------------*/
+.scroll-down {
+  position: absolute;
+  top: 92%;
+  left: 57%;
+  z-index: 10;
+  background: #149ddd;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+  visibility: hidden;
+}
 
+.scroll-down i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.scroll-down:hover {
+  background: #2eafec;
+  color: #fff;
+}
+
+.scroll-down.active {
+  visibility: visible;
+  opacity: 1;
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+ .scroll-down{
+	visibility: visible;
+ }
+}
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
