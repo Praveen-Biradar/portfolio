@@ -83,10 +83,10 @@ h1, h2, h3, h4, h5, h6 {
   visibility: visible;
   opacity: 1;
 }
-@media only screen and (min-width: 768px) {
-  /* For desktop: */
+@media only screen and (max-width: 600px) {
+  /* For mobile: */
  .scroll-down{
-	visibility: visible;
+	visibility: hidden !important;
  }
 }
 /*--------------------------------------------------------------

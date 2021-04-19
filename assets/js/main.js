@@ -82,6 +82,22 @@
   }
 
   /**
+   * Back to top button
+   */
+  let scrolldown = select('.scroll-down')
+  if (scrolldown) {
+    const toggleScrolldown = () => {
+      if (window.scrollY > 100) {
+        scrolldown.classList.remove('active')
+      } else {
+		scrolldown.classList.add('active')
+      }
+    }
+    window.addEventListener('load', toggleScrolldown)
+    onscroll(document, toggleScrolldown)
+  }
+
+  /**
    * Mobile nav toggle
    */
   on('click', '.mobile-nav-toggle', function(e) {
