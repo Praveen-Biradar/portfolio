@@ -89,9 +89,12 @@ h1, h2, h3, h4, h5, h6 {
 	visibility: hidden !important;
  }
 }
-@media only screen and (min-width: 600px) and (max-width:768px) {
+@media only screen and (min-width: 600px) and (max-width:1199px){
  .scroll-down{
-	left: 47.25%;
+	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
  }
 }
 /*--------------------------------------------------------------
