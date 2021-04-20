@@ -680,6 +680,7 @@ achievements
   padding: 30px;
   background: #fff;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  height: auto !important;
 }
 
 .contact .php-email-form .form-group {
@@ -788,7 +789,13 @@ achievements
     transform: rotate(360deg);
   }
 }
-
+.iframe{
+	min-height: 150vh;
+	width: 100%;
+    padding: 15px;
+    background: #fff;
+    box-shadow: 0 0 24px 0 rgb(0 0 0 / 12%);
+}
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
