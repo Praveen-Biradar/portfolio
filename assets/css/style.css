@@ -857,9 +857,9 @@ achievements
 # Footer
 --------------------------------------------------------------*/
 #footer {
+  font-size: 13px;
+  color: #eaebf0;
   padding: 15px;
-  color: #f4f6fd;
-  font-size: 14px;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -875,8 +875,6 @@ achievements
 #footer .credits {
   padding-top: 5px;
   text-align: center;
-  font-size: 13px;
-  color: #eaebf0;
 }
 
 .inactiveLink {
@@ -890,7 +888,6 @@ achievements
     padding-right: 20px 15px;
   }
 }
-/** Google form **/
-.m2 .freebirdFormviewerViewHeaderHeader{
-	display: none !important; 
+.bi-suit-heart-fill{
+	color: #FF7F50;
 }
