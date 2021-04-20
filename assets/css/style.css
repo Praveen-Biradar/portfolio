@@ -89,6 +89,11 @@ h1, h2, h3, h4, h5, h6 {
 	visibility: hidden !important;
  }
 }
+@media only screen and (min-width: 600px) and (max-width:768px) {
+ .scroll-down{
+	left: 50%;
+ }
+}
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
