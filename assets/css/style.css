@@ -846,7 +846,7 @@ section {
     transform: rotate(360deg);
   }
 }
-.iframe{
+#getInTouch{
     min-height: 150vh;
     width: 100%;
     padding: 15px;
