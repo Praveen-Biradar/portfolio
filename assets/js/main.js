@@ -1,6 +1,17 @@
 (function() {
   "use strict";
 
+    /**
+   * Preloader
+   */
+  let preloader = document.getElementById("preloader");
+  //select('#preloader');
+  if (preloader) {
+    window.addEventListener('load', () => {
+      preloader.remove()
+    });
+  }
+  
   /**
    * Easy selector helper function
    */
